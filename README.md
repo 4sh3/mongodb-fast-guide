@@ -15,7 +15,7 @@ Permite agregar una o varias colecciones a una base de datos.
 db.collection.insertOne({JSON-Document}) 
 A diferencia del insert({JSON-Document}), este método solo inserta una colección.
 
-db.<collection>.insertMany([{JSON-Document}, {Other-JSON-Document}, {...}]) 
+db.collection.insertMany([{JSON-Document}, {Other-JSON-Document}, {...}]) 
 Este método es similar a insert({JSON-Document}), sin embargo, este método fue incluido en la versión 3 de MongoDB por ende debe comenzar a usarse y evitar insert({JSON-Document}).
 
 # Búsquedas
